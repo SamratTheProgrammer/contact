@@ -27,13 +27,13 @@ nav{
     width: 100%;
 }
 .container{
-    height: 500px;
+    height: 550px;
     width: 700px;
-    background-color: transparent;
+    background-color: rgba(117, 107, 107, 0.219);
     backdrop-filter: blur(8px);
     border-radius: 10px;
     border: 2px solid white;
-    padding: 20px;
+    padding: 25px;
     margin: 15px;
     display: flex;
     flex-direction: column;
@@ -50,28 +50,37 @@ button.insta{
     border: 1px solid white;
     border-radius: 10px;
     margin-bottom: 30px;
-    background-color: transparent;
+    background-color: rgba(128, 128, 128, 0.527);
     font-size: x-large;
     font-weight: 700;
-    
+    transition: .5s;
 }
 button#signin.signin{
-    height: 30px;
-    width: 90px;
+    height: 35px;
+    width: 110px;
     border-radius: 6px;
     border: 1px solid white;
     background : transparent;
     backdrop-filter: blur(8px);
+    transition: .5s;
+    background-color: rgba(128, 128, 128, 0.527);
+    margin-right: 30px;
+    font-size: larger;
 }
 button#signup.signup{
-    height: 30px;
-    width: 90px;
+    height: 35px;
+    width: 110px;
     border-radius: 6px;
     border: 1px solid white;
     background : transparent;
     backdrop-filter: blur(8px);
+    transition: .5s;
+    background-color: rgba(128, 128, 128, 0.527);
+    margin-right: 30px;
+    margin-left: -25px;
+    font-size: larger;
 }
-b{
+b{  text-decoration: none;
     color: aliceblue;
     font-style: inherit;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -87,4 +96,14 @@ button#signin.signin:hover{
 button#insta.insta:hover{
     background-color: rgb(2, 14, 24);
     color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    font-size: larger;
+    color: aliceblue;
+    letter-spacing: 2px;
+    
 }
